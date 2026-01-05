@@ -9,5 +9,10 @@
 @theme{
   --color-primary: oklch(58.6% 0.253 17.585);
   --color-secondary:oklch(62.7% 0.265 303.9);
+  --text-first:8px;
+
+  --shadow-soft: 0 4px 10px rgba(0, 0, 0, 0.15);
+  --shadow-strong: 0 1px 4px oklch(44.6% 0.043 257.281);
+  --shadow-glow: 0 0 20px oklch(58.6% 0.253 17.585);
   
 }
