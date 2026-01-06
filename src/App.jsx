@@ -1,4 +1,5 @@
-import Layout from "./comp/Layout"
+
+import Dark from "./Sec2/Dark"
 
 
 function App() {
@@ -6,9 +7,9 @@ function App() {
 
   return (
     <>
-      <div className='h-screen'>
-       
-       <Layout/>
+      <div className="bg-background text-foreground h-screen ">
+       <Dark/>
+    
       
       </div>
      

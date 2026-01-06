@@ -1,4 +1,61 @@
 @import 'tailwindcss';
 
+@custom-variant dark (&:where(.dark, .dark *));
 
 
+ @theme{
+  --color-primary: oklch(58.6% 0.253 17.585);
+  --color-secondary:oklch(62.7% 0.265 303.9);
+  --color-third:oklch(54.1% 0.281 293.009);
+  --text-first:8px;
+
+  --shadow-soft: 0 4px 10px rgba(0, 0, 0, 0.15);
+  --shadow-strong: 0 1px 4px oklch(44.6% 0.043 257.281);
+  --shadow-glow: 0 5px 20px oklch(37.3% 0.034 259.733);
+  
+}
+
+:root{
+  --background:#d1cbcb;
+  --foreground:#b40d0d;
+ 
+}
+
+@theme inline{
+  --color-background:var(--background);
+  --color-foreground:var(--foreground);
+  --font-sans:var(--font-geist-sans);
+  --font-mono:var(--font-geist-mono);
+
+}
+
+/* .animate-me{
+  animation: marquee 10s linear infinite;
+}
+
+@keyframes marquee {
+  from{
+    transform: translateX(-100%);
+  }
+  to{
+    transform: translateX(100%);
+  }
+} */
+
+@theme{
+  --animate-marquee: marquee 10s linear infinite;
+
+  @keyframes marquee {
+    from{
+      transform:translateX(-100%);
+    }
+    to{
+      transform:translateX(100%)
+    }
+    
+  }
+}
+.dark{
+  --background:#171717;
+  --foreground:#ffffff
+}
