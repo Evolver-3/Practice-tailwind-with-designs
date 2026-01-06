@@ -13,6 +13,6 @@
 
   --shadow-soft: 0 4px 10px rgba(0, 0, 0, 0.15);
   --shadow-strong: 0 1px 4px oklch(44.6% 0.043 257.281);
-  --shadow-glow: 0 0 20px oklch(58.6% 0.253 17.585);
+  --shadow-glow: 0 5px 20px oklch(37.3% 0.034 259.733);
   
 }
