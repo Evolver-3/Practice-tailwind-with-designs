@@ -60,9 +60,7 @@ const Dark = () => {
         <h2 className='font-bold text-neutral-600  mb-2 text-first'>Lorem ipsum dolor sit amet, consectetur adipisici</h2>
         <p className='text-neutral-400 text-first'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro voluptatum veritatis laudantium similique in provident cumque</p>
 
-      
-
-
+    
         </div>
 
        

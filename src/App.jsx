@@ -1,5 +1,6 @@
 
-import Dark from "./Sec2/Dark"
+
+import Ara from "./Triple/Ara"
 
 
 function App() {
@@ -8,7 +9,7 @@ function App() {
   return (
     <>
       <div className="bg-background text-foreground h-screen ">
-       <Dark/>
+       <Ara/>
     
       
       </div>
