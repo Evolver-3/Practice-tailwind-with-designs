@@ -1,7 +1,9 @@
 
 
 
-import Ok from "./Triple/Ok"
+import  Container  from "./finta/Container"
+import Navbar from "./finta/Navbar"
+
 
 
 function App() {
@@ -9,8 +11,8 @@ function App() {
 
   return (
     <>
-      <div className="bg-background text-foreground h-screen ">
-       <Ok/>
+      <div className="bg-background text-foreground h-screen">
+       <Navbar/>
     
       
       </div>
