@@ -20,7 +20,7 @@ const Lay = () => {
         <Body/>
       </Container>
 
-      <button className='absolute bg-neutral-800 px-2 py-1 rounded-md top-0' onClick={changeClickTheme}>Change Theme</button>
+      <button className='absolute  outline-1 outline-black text-black dark:bg-gray-300 text-sm font-mono shdow-soft px-2 py-1 rounded-md top-3 right-4' onClick={changeClickTheme}>Change Theme</button>
     </div>
   )
 }
