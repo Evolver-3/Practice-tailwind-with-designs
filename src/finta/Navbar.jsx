@@ -11,7 +11,7 @@ const Navbar = () => {
   const [open,setOpen]=useState(false)
   return (<>
     
-      <div className='fixed w-full bg-neutral-100 opacity-80 z-20'>
+      <div className='fixed w-full bg-neutral-100 opacity-80 z-20 shadow-soft'>
       <div className='flex justify-around  items-center py-4 text-md relative'>
         <div className='flex justify-between '>
           <img src='/finta-icon-light.svg' className='w-5'></img>

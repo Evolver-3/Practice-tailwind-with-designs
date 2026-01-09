@@ -15,10 +15,9 @@ const Lay = () => {
   return (
 
     <div className='relative bg-radial-[at_50%_0%] from-white via-sky-200 to-b-white shadow-strong pb-10'>
+
        <Navbar/>
-     
-       
-        <Body/>
+       <Body/>
     
 
       <button className='absolute outline-1 outline-black text-black dark:bg-gray-300 text-sm font-mono shdow-soft px-2 py-1 rounded-md top-3 right-4' onClick={changeClickTheme}>Change Theme</button>
