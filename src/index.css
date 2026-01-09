@@ -59,3 +59,17 @@
   --background:#101010;
   --foreground:#ffffff
 }
+
+@theme{
+  --animate-slide: slide 12s linear infinite ;
+
+  @keyframes slide {
+    from{
+      transform:translateX(100%);
+    }
+    to{
+      transform:translateX(-100%)
+    }
+    
+  }
+}
