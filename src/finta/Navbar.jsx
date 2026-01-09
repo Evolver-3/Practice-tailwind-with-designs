@@ -12,7 +12,7 @@ const Navbar = () => {
   return (<>
     
       
-      <div className='flex justify-around  items-center py-4 text-md '>
+      <div className='flex justify-around  items-center py-4 text-md'>
         <div className='flex justify-between '>
           <img src='/finta-icon-light.svg' className='w-5'></img>
           <h2 className='text-[20px] font-semibold ml-1'>Finta</h2>
