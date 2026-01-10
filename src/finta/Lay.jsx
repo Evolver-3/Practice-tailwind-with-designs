@@ -20,7 +20,12 @@ const Lay = () => {
        <Body/>
     
 
-      <button className='absolute outline-1 outline-black text-black dark:bg-gray-300 text-sm font-mono shdow-soft px-2 py-1 rounded-md top-3 right-4' onClick={changeClickTheme}>Change Theme</button>
+      <button className='fixed text-sm font-mono shdow-soft px-2 py-1 rounded-md top-30 right-10  flex items-center justify-center' onClick={changeClickTheme}>
+
+        <i className='bx  bx-sun bx-sm absolute inset-0  shrink-0 text-yellow-700 dark:scale-0 scale-100 dark:rotate-45 transition-all duration-300 m-auto'></i> 
+
+        <i className='bx  bx-moon absolute bx-sm inset-0 shrink-0 dark:text-neutral-800 dark:scale-100 scale-0 dark:rotate-0 rotate-45 transition-all duration-300 m-auto'></i> 
+      </button>
     </div>
   )
 }

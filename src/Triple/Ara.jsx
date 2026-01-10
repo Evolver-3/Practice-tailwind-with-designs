@@ -1,4 +1,5 @@
 import React from 'react'
+import Box from './Box';
 
 const Ara = () => {
 
@@ -11,34 +12,20 @@ const Ara = () => {
   }
 
   return (
-    <div className='relative grid grid-cols-2 dark:grid-cols-3 justify-center items-center h-screen bg-background'>
+    <div className=' max-w-4xl mx-auto grid grid-cols-1 lg:grid-cols-2 h-screen gap-2 py-2 px-2 [background-color:orange]'>
 
-      <div className='w-60 h-90 rounded-xl shadow-strong outline-1 outline-neutral-400 bg-white dark:bg-neutral-600 dark:outline-white flex flex-col items-center pt-10 gap-10 '>
-        <h3 className='text-lg font-semibold tracking-tighter dark:text-black underline  '>Cards with dark mode</h3>
+      <Box className="" heading={"Helelelddddjodjjdj"} text={"djdoodod"} showSpan={true} spanText={"djdjjd"}/>
 
-        <p className='text-center text-sm mx-5 text-neutral-900 dark:text-white '>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores officiis temporibus ratione, at facilis nisi veritatis praesentium architecto. Aut, excepturi!</p>
+      <Box className="" heading={"Helelelddddjodjjdj"} text={"djdoodod"} showSpan={true} spanText={"djdjjd"} spanColor='indigo' />
 
+      <Box className="lg:col-span-2" heading={"Helelelddddjodjjdj"} text={"djdoodod"} showSpan={true} spanText={"djdjjd"} spanColor=""/>
 
-      </div>
+    
 
-       <div className='w-60 h-90 rounded-xl shadow-strong outline-1 outline-neutral-400 bg-white dark:bg-neutral-600 dark:outline-white flex flex-col items-center pt-10 gap-10 '>
-        <h3 className='text-lg font-semibold tracking-tighter dark:text-black underline  '>Cards with dark mode</h3>
-
-        <p className='text-center text-sm mx-5 text-neutral-900 dark:text-white '>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores officiis temporibus ratione, at facilis nisi veritatis praesentium architecto. Aut, excepturi!</p>
+   
 
 
-      </div>
-
-       <div className='w-60 h-90 rounded-xl shadow-strong outline-1 outline-neutral-400 bg-white dark:bg-neutral-600 dark:outline-white flex flex-col items-center pt-10 gap-10 '>
-        <h3 className='text-lg font-semibold tracking-tighter dark:text-black underline  '>Cards with dark mode</h3>
-
-        <p className='text-center text-sm mx-5 text-neutral-900 dark:text-white '>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores officiis temporibus ratione, at facilis nisi veritatis praesentium architecto. Aut, excepturi!</p>
-
-
-      </div>
-
-
-      <button className='absolute top-0 bg-neutral-600 px-3 py-2 rounded-md text-white text-sm ' onClick={switchTheme}>Switch theme</button>
+      <button className='absolute top-0 right-10 bg-neutral-600 px-3 py-2 rounded-md text-white text-sm ' onClick={switchTheme}>Switch theme</button>
 
     </div>
   )
