@@ -44,9 +44,11 @@ const Body = () => {
 
 
       <div className='mask-r-from-80% mask-l-from-90%  overflow-hidden relative'>
-      <div className='flex w-max gap-10 text-[30px] font-semibold  animate-slide hover:animate-none max-w-2xl'>
+      <div className='flex flex-nowrap w-max gap-10 text-[30px] font-semibold  animate-slide  max-w-2xl'>
         {[...scrollItems, ...scrollItems].map((scroll,index)=>(
-          <h2 key={index} className=' hover:text-neutral-600 leading-tight whitespace-nowrap'>{scroll.title}</h2>
+          <div className='flex flex-row' key={index}>
+          <h2  className=' hover:text-neutral-600 leading-tight whitespace-nowrap'>{scroll.title}</h2>
+          </div>
         ))}
       </div>
       </div>

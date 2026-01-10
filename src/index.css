@@ -61,15 +61,41 @@
 }
 
 @theme{
-  --animate-slide: slide 6s linear infinite ;
+  --animate-slide: slide 20s linear infinite ;
 
   @keyframes slide {
     from{
-      transform:translateX(100%);
+      transform:translateX(0)
     }
     to{
       transform:translateX(-50%)
     }
     
+  }
+}
+
+@theme{
+  --animate-updownside:updownside 15s linear infinite;
+
+  @keyframes updownside{
+    from{
+      transform:translateY(100%)
+    }
+    to{
+      transform:translateY(-100%)
+    }
+  }
+}
+
+@theme{
+  --animate-downside:downside 10s linear infinite;
+
+  @keyframes downside{
+    from{
+      transform:translateY(-100%)
+    }
+    to{
+      transform:translateY(100%)
+    }
   }
 }

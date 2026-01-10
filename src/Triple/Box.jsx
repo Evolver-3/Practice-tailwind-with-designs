@@ -24,10 +24,10 @@ const Box = ({heading,text,spanText,showSpan=false,spanColor="neutral",className
 
       {showSpan && spanText && (
         <span className={`mt-2 flex-1 rounded-sm py-1 px-3 text-xs font-semibold text-black w-full shadow-[0_2px_4px_8px_var(--color-red-800)] ${spanColors[spanColor]} 
-          [background-image:radial-gradient(black_1px,_transparent_1px)][background-size:10px_10px] `}
+          `}
         style={{
-          // backgroundImage:'radial-gradient(black 1px, transparent 1px)',
-          // backgroundSize:'10px 10px'
+          backgroundImage:'radial-gradient(black 1px, transparent 1px)',
+          backgroundSize:'10px 10px'
         }}>{spanText}</span>
       )}
     </div>

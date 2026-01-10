@@ -15,9 +15,9 @@ function App() {
   return (
     <>
       <div className="bg-background text-foreground h-full ">
-       {/* <Lay/>
-       <Testimonial/> */}
-       <Ara/>
+       <Lay/>
+       <Testimonial/>
+      
     
       
       </div>

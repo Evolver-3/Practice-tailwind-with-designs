@@ -51,6 +51,54 @@ const Testimonial = () => {
       "role": "Founder",
       "company": "Preloop",
       "rating": 5
+    },
+        {
+      "id": 7,
+      "quote": "I’ve become a huge fan of Finta. The platform is super easy to use, intuitive, and requires zero effort. Customer support is second to none.",
+      "name": "Avi Hercenberg",
+      "role": "Founder",
+      "company": "Sessionary",
+      "rating": 5
+    },
+    {
+      "id": 8,
+      "quote": "Really easy onboarding and great team to work with!",
+      "name": "Alex Fuster",
+      "role": "Founder",
+      "company": "Astro",
+      "rating": 5
+    },
+    {
+      "id": 9,
+      "quote": "Really easy to use and get started. Helpful to keep on top of burn and accounting related issues.",
+      "name": "Abhishey Ray",
+      "role": "Founder",
+      "company": "Octopipe",
+      "rating": 5
+    },
+    {
+      "id": 10,
+      "quote": "Incredible onboarding and support by Andy! We love working with Finta.",
+      "name": "Aidan Lee",
+      "role": "Founder",
+      "company": "Aftercare",
+      "rating": 5
+    },
+    {
+      "id": 11,
+      "quote": "Finta is incredible — it took less than 10 minutes to do our bookkeeping for the entire year.",
+      "name": "Bryant Lee",
+      "role": "Founder",
+      "company": "Vaero",
+      "rating": 5
+    },
+    {
+      "id": 12,
+      "quote": "Super easy onboarding process, and takes away the pain of having to file business taxes.",
+      "name": "Tejas Hosangadi",
+      "role": "Founder",
+      "company": "Preloop",
+      "rating": 5
     }
   ]
 
@@ -73,15 +121,17 @@ const Testimonial = () => {
           <span> from 1,000+ founders</span>
         </div>
 
-        <div className='grid grid-cols-3 gap-10 mx-2'>
-          {testDatas.map((test,index)=>(
-            <div key={index} className='shadow-strong rounded-xl py-4 px-3 flex flex-col text-left gap-4'>
-              <p>{test.quote}</p>
+        <div className='mask-t-from-95% mask-b-from-95%  overflow-hidden relative'>
+        <div className='grid grid-cols-3 gap-2 mx-2  animate-downside'>
+          {[...testDatas,...testDatas].map((test,index)=>(
+            <div key={index} className='shadow-strong rounded-xl py-4 px-3 flex flex-col flex-nowrap text-left gap-4 '>
+              <p className='text-sm'>{test.quote}</p>
 
               <h2>{test.name}</h2>
               <h3>{test.role}</h3>
             </div>
           ))}
+        </div>
         </div>
 
         
